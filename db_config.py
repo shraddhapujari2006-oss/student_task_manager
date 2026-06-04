@@ -2,9 +2,10 @@ import mysql.connector
 
 def get_db_connection():
     connection =mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='2709',
-        database='student_task_manager'
+        host='gateway01.ap-southeast-1.prod.aws.tidbcloud.com',
+        user='3hSrUBSPF9bKQvi.root',
+        password='asbI5myPebu2VfhG',
+        database='student_task_manager',
+        port='4000'
     )
     return connection
